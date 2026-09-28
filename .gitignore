@@ -2,3 +2,5 @@
 __pycache__/
 .python-version
 tester.py
+.claude/
+tester.py
