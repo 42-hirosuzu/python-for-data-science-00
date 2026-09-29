@@ -6,7 +6,7 @@ def NULL_not_found(object: Any) -> int:
         print(f"Nothing: None {type(object)}")
     elif isinstance(object, float) and object != object:
         print(f"Cheese: nan {type(object)}")
-    elif isinstance(object, bool):
+    elif object is False:
         print(f"Fake: False {type(object)}")
     elif object == 0:
         print(f"Zero: 0 {type(object)}")
