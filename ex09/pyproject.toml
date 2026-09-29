@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "A sample test package"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "hirosuzu"}, {email = "hirosuzu@student.42tokyo.jp"}]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/hirosuzu/ft_package"
+
+[tool.setuptools]
+packages = ["ft_package"]
