@@ -12,7 +12,7 @@ def all_thing_is_obj(object: Any) -> int:
         print(f"Dict : {type(object)}")
     elif isinstance(object, (str)):
         name = object
-        print(f"{name} is in the kichen : {type(object)}")
+        print(f"{name} is in the kitchen : {type(object)}")
     else:
         print("Type not found")
     return 42
